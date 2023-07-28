@@ -1,0 +1,4 @@
+dependencies {
+    api(project(':mudrock-auth:mudrock-auth-client'))
+    api(project(':mudrock-auth:mudrock-auth-infrastructure'))
+}
