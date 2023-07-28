@@ -2,6 +2,6 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'java'
 
 dependencies {
-    api(project(":mudrock-auth:mudrock-auth-controller"))
+    implementation(project(":mudrock-auth:mudrock-auth-controller"))
 }
 
