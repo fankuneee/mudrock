@@ -1,4 +1,4 @@
 dependencies {
-    implementation(project(':mudrock-auth:mudrock-auth-domain'))
+    api(project(':mudrock-auth:mudrock-auth-domain'))
     implementation('org.springframework.boot:spring-boot-starter-oauth2-authorization-server')
 }
