@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    open-in-view: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mudrock_auth?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=true&enabledTLSProtocols=TLSv1.2
+    username:
+    password:
+  flyway:
+    url: jdbc:mysql:///mudrock_auth?useUnicode=true&characterEncoding=gbk&serverTimezone=GMT%2B8
+    user:
+    password:
+    baseline-on-migrate: true
+    enabled: true
+    locations: classpath:db/dev
+    baseline-version: 0
+    schemas: mudrock_auth
